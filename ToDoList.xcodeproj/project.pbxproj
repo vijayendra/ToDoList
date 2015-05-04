@@ -14,6 +14,8 @@
 		B10B7FFA1AF3598800E672C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B10B7FF91AF3598800E672C0 /* Images.xcassets */; };
 		B10B7FFD1AF3598800E672C0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B10B7FFB1AF3598800E672C0 /* LaunchScreen.xib */; };
 		B10B80091AF3598800E672C0 /* ToDoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B10B80081AF3598800E672C0 /* ToDoListTests.m */; };
+		B10B80161AF8116600E672C0 /* AddToDoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B10B80151AF8116600E672C0 /* AddToDoItemViewController.m */; };
+		B10B80191AF8136A00E672C0 /* ToDoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B10B80181AF8136A00E672C0 /* ToDoListTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		B10B80021AF3598800E672C0 /* ToDoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B10B80071AF3598800E672C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B10B80081AF3598800E672C0 /* ToDoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListTests.m; sourceTree = "<group>"; };
+		B10B80141AF8116600E672C0 /* AddToDoItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddToDoItemViewController.h; sourceTree = "<group>"; };
+		B10B80151AF8116600E672C0 /* AddToDoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddToDoItemViewController.m; sourceTree = "<group>"; };
+		B10B80171AF8136A00E672C0 /* ToDoListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoListTableViewController.h; sourceTree = "<group>"; };
+		B10B80181AF8136A00E672C0 /* ToDoListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoListTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,9 +92,13 @@
 				B10B7FF31AF3598800E672C0 /* ViewController.h */,
 				B10B7FF41AF3598800E672C0 /* ViewController.m */,
 				B10B7FF61AF3598800E672C0 /* Main.storyboard */,
+				B10B80141AF8116600E672C0 /* AddToDoItemViewController.h */,
+				B10B80151AF8116600E672C0 /* AddToDoItemViewController.m */,
 				B10B7FF91AF3598800E672C0 /* Images.xcassets */,
 				B10B7FFB1AF3598800E672C0 /* LaunchScreen.xib */,
 				B10B7FEC1AF3598800E672C0 /* Supporting Files */,
+				B10B80171AF8136A00E672C0 /* ToDoListTableViewController.h */,
+				B10B80181AF8136A00E672C0 /* ToDoListTableViewController.m */,
 			);
 			path = ToDoList;
 			sourceTree = "<group>";
@@ -168,6 +178,11 @@
 				TargetAttributes = {
 					B10B7FE81AF3598800E672C0 = {
 						CreatedOnToolsVersion = 6.3.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					B10B80011AF3598800E672C0 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -222,6 +237,8 @@
 				B10B7FF51AF3598800E672C0 /* ViewController.m in Sources */,
 				B10B7FF21AF3598800E672C0 /* AppDelegate.m in Sources */,
 				B10B7FEF1AF3598800E672C0 /* main.m in Sources */,
+				B10B80191AF8136A00E672C0 /* ToDoListTableViewController.m in Sources */,
+				B10B80161AF8116600E672C0 /* AddToDoItemViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
